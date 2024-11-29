@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 from . import __version__ as app_version
 
@@ -194,7 +193,7 @@ doc_events = {
         "on_change": "propms.auto_custom.makeSalesInvoice",
     },
     "Sales Order": {
-        "validate": "propms.auto_custom.validateSalesInvoiceItemDuplication"
+        # "validate": "propms.auto_custom.validateSalesInvoiceItemDuplication"
     },
     "Key Set Detail": {"on_change": "propms.auto_custom.changeStatusKeyset"},
     "Meter Reading": {"on_submit": "propms.auto_custom.make_invoice_meter_reading"},
